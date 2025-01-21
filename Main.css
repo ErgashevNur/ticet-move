@@ -1,0 +1,190 @@
+/* Global Styles */
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("images/background-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Header */
+.header h1 {
+  font-size: 1.8rem;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+.header .sub-header {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.form {
+  background: #29293f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Upload Section */
+.upload-section {
+  margin-bottom: 20px;
+}
+.upload-box {
+  border: 2px dashed #555;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  background: #1f1f38;
+}
+.upload-box input {
+  display: none;
+}
+.upload-text {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.upload-note {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  background: #444;
+  color: #fff;
+}
+
+/* Submit Button */
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+  background: #ff6f61;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn-submit:hover {
+  background: #e0564d;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Header */
+.header h1 {
+  font-size: 1.8rem;
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+.header .sub-header {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.form {
+  background: #29293f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Upload Section */
+.upload-section {
+  margin-bottom: 20px;
+}
+.upload-box {
+  border: 2px dashed #555;
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  background: #1f1f38;
+}
+.upload-box input {
+  display: none;
+}
+.upload-text {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.upload-note {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  background: #444;
+  color: #fff;
+}
+
+/* Submit Button */
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+  background: #ff6f61;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn-submit:hover {
+  background: #e0564d;
+}
