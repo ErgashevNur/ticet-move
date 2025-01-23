@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Ticket Generator</title>
     <link rel="stylesheet" href="./Main.css" />
   </head>
@@ -10,16 +16,21 @@
     <div class="container">
       <h1><img class="logo" src="./images/logo-full.svg" alt="" /></h1>
       <header class="header">
-        <p>Your Journey to Coding Conf 2025 Starts Here!</p>
+        <p class="first-title">Your Journey to Coding Conf 2025 Starts Here!</p>
         <p class="sub-header">
           Secure your spot at next year’s biggest coding conference.
         </p>
       </header>
 
-      <form>
+      <form class="fform">
         <div class="upload-section">
+          <label class="avatar-label" for="upload-avatar">Upload Avatar</label>
           <label for="avatar" class="upload-box">
-            <span class="upload-text">Drag and drop or click to upload</span>
+            <div class="drop-img">
+              <img src="./images/icon-upload.svg" />
+              <span class="upload-text">Drag and drop or click to upload</span>
+            </div>
+            <br />
             <input
               type="file"
               id="avatar"
@@ -27,8 +38,10 @@
               accept="image/png, image/jpeg"
             />
           </label>
+
           <p class="upload-note">
-            📷 Upload your photo (JPG or PNG, max size: 5MB).
+            <img src="./images/icon-info.svg" /> Upload your photo (JPG or PNG,
+            max size: 5MB).
           </p>
         </div>
 
@@ -38,6 +51,7 @@
             type="text"
             id="full-name"
             placeholder="Enter your full name"
+            class="name-input"
           />
         </div>
 
@@ -51,7 +65,7 @@
           <input type="text" id="github" placeholder="@yourusername" />
         </div>
 
-        <button type="submit" class="btn-submit">Generate My Ticket</button>
+        <a href="./create.html" class="btn-submit"> Generate My Ticket </a>
       </form>
     </div>
   </body>
